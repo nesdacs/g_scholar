@@ -171,14 +171,14 @@ f.write(message_thes)
 f.close()
 
 #Saving the HTML files into the website database
-session = ftplib.FTP('148.72.171.157','master@onchipuis.io','.fisyelec.')
-file = open('pubs_test.html','rb')                  # file to send
-session.storbinary('STOR pubs_test.html', file)     # send the file
-file.close()                                    # close file and FTP
-session.quit()
+# session = ftplib.FTP('148.**.***.***','somebranch@example.com','password')
+# file = open('pubs_test.html','rb')                  # file to send
+# session.storbinary('STOR pubs_test.html', file)     # send the file
+# file.close()                                    # close file and FTP
+# session.quit()
 
-session = ftplib.FTP('148.72.171.157','master@onchipuis.io','.fisyelec.')
-file = open('thes_test.html','rb')                  # file to send
-session.storbinary('STOR thes_test.html', file)     # send the file
-file.close()                                    # close file and FTP
-session.quit()
+# session = ftplib.FTP('148.**.***.***','somebranch@example.com','password')
+# file = open('thes_test.html','rb')                  # file to send
+# session.storbinary('STOR thes_test.html', file)     # send the file
+# file.close()                                    # close file and FTP
+# session.quit()
